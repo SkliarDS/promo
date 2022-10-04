@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- <meta name="viewport" content="width=1200px"> -->
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>Клиенты</title>
+<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">	 
+<link rel="stylesheet" href="./files/libs/swiper/swiper-bundle.min.css?_v=20221004184222"/>
+<link rel="stylesheet" href="./css/style.min.css?_v=20221004184222">
+     
+</head>
+<body id="body">   
+    
+    <!-- <main class="main">             -->
+        <br><br>
+<div class="wrapper">
+    <div class="clients clients-wrapper">
+        <div class="filter clients__filter">
+            <div class="search clients__search border">
+                <div class="search__field">Фильтр + поиск</div>
+                <button class="btn btn--blue">Поиск</button>
+            </div>
+            <button class="button-atom"><svg class='icon-atom' width='24' height='24'><use href='./img/icons/icons.svg#atom'></use></svg></button>
+            <button class="filter__btn btn btn--outline">
+                Сортировать по
+                <svg class='icon-arrow-down icon-arrow-down--blue' width='10' height='10'><use href='./img/icons/icons.svg#arrow_down'></use></svg>
+            </button>
+        </div>
+        <ul class="clients__list clients-list">
+            <li class="clients-item clients-item--header clients-grid">
+                <div class="clients-item__head clients-item__head--fio">
+                    <span>ФИО</span>
+                    <svg class='icon-arrow-down icon-arrow-down--grey' width='10' height='10'><use href='./img/icons/icons.svg#arrow_down'></use></svg>
+                </div>
+                <div class="clients-item__head clients-item__head--phone">Телефон</div>
+                <div class="clients-item__head">Абонемент</div>
+                <div class="clients-item__head">
+                    <span>Визиты</span>
+                    <svg class='icon-arrow-down icon-arrow-down--grey' width='10' height='10'><use href='./img/icons/icons.svg#arrow_down'></use></svg>
+                </div>
+                <div class="clients-item__head"></div>
+                <div class="clients-item__head">Комментарии</div>
+                <div class="clients-item__head">
+                    <span>Дата рождения</span>
+                    <svg class='icon-arrow-down icon-arrow-down--grey' width='10' height='10'><use href='./img/icons/icons.svg#arrow_down'></use></svg>
+                </div>
+            </li>
+            <li class="clients-item clients-grid" data-checkbox>
+                <!-- item -->                
+                <div class="clientsd-item__user">
+                    <label class="clientsd-item__checkbox checkbox">
+                        <input type="checkbox" name="user" class="checkbox__real-input">
+                        <span class="checkbox__custom-input"></span>
+                        <span class="checkbox__text">Константин Иноземцев Презентация</span>
+                    </label>                  
+                </div>                
+                <!-- item end-->
+
+                <!-- item -->
+                <div class="clients-item__phone">
+                    <div class="clients-item__box-phone">
+                        <span class="clients-item__hide-phone">495 698 55-55</span>
+                        <span class="clients-item__visible-phone">... ... 55-55</span>
+                    </div>
+                    <a href="tel:" class="clients-item__link">
+                        <svg class='icon-phone icon-phone--blue' width='18' height='18'><use href='./img/icons/icons.svg#phone'></use></svg>
+                    </a>
+                    <ul class="clients-item__tooltip clients-item__phone-tooltip">
+                        <li>
+                            <a href="#">
+                                <svg class='icon-comment' width='18' height='18'><use href='./img/icons/icons.svg#comment'></use></svg>
+                                <span>Писать</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg class='icon-phone icon-phone--blue' width='18' height='18'><use href='./img/icons/icons.svg#phone'></use></svg>
+                                <span>Звонить</span>
+                            </a>
+                        </li>
+                        <li>
+                             <a href="#">
+                                <svg class='icon-wa' width='18' height='18'><use href='./img/icons/icons.svg#wa'></use></svg>
+                                <span>WhatsApp</span>
+                            </a>
+                        </li>                        
+                    </ul>
+                </div>
+                <!-- item  end-->
+
+                <!-- item -->
+                <div class="clients-item__subscription subscription-item">
+                    <div class="subscription-item__icon">
+                        <span></span>
+                        <svg class='icon-card subscription-item__icon-card' width='15' height='10'><use href='./img/icons/icons.svg#card'></use></svg>
+                    </div>
+                    <div class="subscription-item__num">> 100 тыс</div>
+                </div>
+                <!-- item  end-->
+
+                <!-- item -->
+                <div class="clients-item__visits">
+                    <div class="clients-item__visits-mob">                        
+                        <svg class='icon-clock clients-item__visits-icon' width='14' height='14'><use href='./img/icons/icons.svg#clock'></use></svg>
+                        <span>985</span>
+                    </div>
+                    <div class="clients-item__visits-desktop">
+                        <span class="clients-item__visits-text">Не часто</span>
+                        <span class="clients-item__tooltip clients-item__visits-tooltip">23</span>
+                    </div>                    
+                </div>
+                <!-- item  end-->
+
+                <!-- item -->
+                <div class="clients-item__cross">
+                    <svg class='icon-cross' width='15' height='15'><use href='./img/icons/icons.svg#cross'></use></svg>
+                    <span class="clients-item-cross clients-item__cross-icon">
+                        <svg class='icon-cross' width='24' height='24'><use href='./img/icons/icons.svg#cross_white'></use></svg>
+                    </span>
+                </div>
+                <!-- item  end-->
+
+                <!-- item -->
+                <div class="clients-item__comment">
+                    <svg class='icon-comment-quote' width='23' height='23'><use href='./img/icons/icons.svg#comment-quote'></use></svg>
+                    <span class="clients-item__tooltip clients-item__comment-tooltip">Массаж relax, исключитьмассаж головы</span>
+                </div>
+                <!-- item  end-->
+
+                <!-- item -->
+                <div class="clients-item__date">
+                    <span>20.01.1991</span>
+                    <svg class='icon-cake' width='23' height='23'><use href='./img/icons/icons.svg#cake'></use></svg>
+                </div>
+                <!-- item  end-->
+
+                <!-- item -->
+                <button class="client-item__button">
+                    <svg class='icon-pencil' width='24' height='24'><use href='./img/icons/icons.svg#pencil'></use></svg>
+                </button>
+                <!-- item  end-->
+          
+            </li>
+            <li class="clients-item clients-grid" data-checkbox>
+                <!-- item -->
+                <div class="clientsd-item__user">
+                    <label class="clientsd-item__checkbox checkbox">
+                        <input type="checkbox" name="соглашение с политикой" class="checkbox__real-input">
+                        <span class="checkbox__custom-input"></span>
+                        <span class="checkbox__text">Яна Иванова</span>
+                    </label>
+                    <div class="clients-item__box-point">
+                        <svg class='icon-point' width='18' height='18'><use href='./img/icons/icons.svg#point'></use></svg>
+                        <span class="clients-item__tooltip clients-item__visits-tooltip">Дубликат клиента</span>
+                    </div>                    
+                </div>                
+                <!-- item end-->
+
+                <!-- item -->
+                <div class="clients-item__phone">
+                    <div class="clients-item__box-phone">
+                        <span class="clients-item__hide-phone">495 698 55-55</span>
+                        <span class="clients-item__visible-phone">... ... 55-55</span>
+                    </div>
+                    <a href="tel:" class="clients-item__link">
+                        <svg class='icon-phone icon-phone--blue' width='18' height='18'><use href='./img/icons/icons.svg#phone'></use></svg>
+                    </a>
+                    <ul class="clients-item__tooltip clients-item__phone-tooltip">
+                        <li>
+                            <a href="#">
+                                <svg class='icon-comment' width='18' height='18'><use href='./img/icons/icons.svg#comment'></use></svg>
+                                <span>Писать</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg class='icon-phone icon-phone--blue' width='18' height='18'><use href='./img/icons/icons.svg#phone'></use></svg>
+                                <span>Звонить</span>
+                            </a>
+                        </li>
+                        <li>
+                             <a href="#">
+                                <svg class='icon-wa' width='18' height='18'><use href='./img/icons/icons.svg#wa'></use></svg>
+                                <span>WhatsApp</span>
+                            </a>
+                        </li>                        
+                    </ul>
+                </div>
+                <!-- item  end-->
+
+                <!-- item -->
+                <div class="clients-item__subscription subscription-item">
+                    <div class="subscription-item__icon">
+                        <span></span>
+                        <svg class='icon-card subscription-item__icon-card' width='15' height='10'><use href='./img/icons/icons.svg#card'></use></svg>
+                    </div>
+                    <div class="subscription-item__num">> 100 тыс</div>
+                </div>
+                <!-- item  end-->
+
+                <!-- item -->
+                <div class="clients-item__visits">
+                    <div class="clients-item__visits-mob">                        
+                        <svg class='icon-clock clients-item__visits-icon' width='14' height='14'><use href='./img/icons/icons.svg#clock'></use></svg>
+                        <span>985</span>
+                    </div>
+                    <div class="clients-item__visits-desktop">
+                        <span class="clients-item__visits-text">Не часто</span>
+                        <span class="clients-item__tooltip clients-item__visits-tooltip">23</span>
+                    </div>                    
+                </div>
+                <!-- item  end-->
+
+                <!-- item -->
+                <div class="clients-item__cross">
+                    <svg class='icon-cross' width='15' height='15'><use href='./img/icons/icons.svg#cross'></use></svg>
+                    <span class="clients-item-cross clients-item__cross-icon">
+                        <svg class='icon-cross' width='24' height='24'><use href='./img/icons/icons.svg#cross_white'></use></svg>
+                    </span>
+                </div>
+                <!-- item  end-->
+
+                <!-- item -->
+                <div class="clients-item__comment">
+                    <!-- <svg class='icon-comment-quote' width='23' height='23'><use href='./img/icons/icons.svg#comment-quote'></use></svg>
+                    <span class="clients-item__tooltip clients-item__comment-tooltip">Массаж relax, исключитьмассаж головы</span> -->
+                </div>
+                <!-- item  end-->
+
+                <!-- item -->
+                <div class="clients-item__date">
+                    <span>20.01.1991</span>
+                    <svg class='icon-cake' width='23' height='23'><use href='./img/icons/icons.svg#cake'></use></svg>
+                </div>
+                <!-- item  end-->
+
+                <!-- item -->
+                <button class="client-item__button">
+                    <svg class='icon-pencil' width='24' height='24'><use href='./img/icons/icons.svg#pencil'></use></svg>
+                </button>
+                <!-- item  end-->
+            </li>
+            <li class="clients-item clients-grid" data-checkbox>
+                <!-- item -->
+                <div class="clientsd-item__user">
+                    <label class="clientsd-item__checkbox checkbox">
+                        <input type="checkbox" name="соглашение с политикой" class="checkbox__real-input">
+                        <span class="checkbox__custom-input"></span>
+                        <span class="checkbox__text">Ольга Потяпова</span>
+                    </label>
+                    <div class="clients-item__box-point">
+                        <svg class='icon-point' width='18' height='18'><use href='./img/icons/icons.svg#point'></use></svg>
+                        <span class="clients-item__tooltip clients-item__visits-tooltip">Дубликат клиента</span>
+                    </div>
+                </div>                
+                <!-- item end-->
+
+                <!-- item -->
+                <div class="clients-item__phone">
+                    <div class="clients-item__box-phone">
+                        <span class="clients-item__hide-phone">495 698 55-55</span>
+                        <span class="clients-item__visible-phone">... ... 55-55</span>
+                    </div>
+                    <a href="tel:" class="clients-item__link">
+                        <svg class='icon-phone icon-phone--blue' width='18' height='18'><use href='./img/icons/icons.svg#phone'></use></svg>
+                    </a>
+                    <ul class="clients-item__tooltip clients-item__phone-tooltip">
+                        <li>
+                            <a href="#">
+                                <svg class='icon-comment' width='18' height='18'><use href='./img/icons/icons.svg#comment'></use></svg>
+                                <span>Писать</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg class='icon-phone icon-phone--blue' width='18' height='18'><use href='./img/icons/icons.svg#phone'></use></svg>
+                                <span>Звонить</span>
+                            </a>
+                        </li>
+                        <li>
+                             <a href="#">
+                                <svg class='icon-wa' width='18' height='18'><use href='./img/icons/icons.svg#wa'></use></svg>
+                                <span>WhatsApp</span>
+                            </a>
+                        </li>                        
+                    </ul>
+                </div>
+                <!-- item  end-->
+
+                <!-- item -->
+                <div class="clients-item__subscription subscription-item">
+                    <div class="subscription-item__icon">
+                        <span></span>
+                        <svg class='icon-card subscription-item__icon-card' width='15' height='10'><use href='./img/icons/icons.svg#card'></use></svg>
+                    </div>
+                    <div class="subscription-item__num">> 100 тыс</div>
+                </div>
+                <!-- item  end-->
+
+                <!-- item -->
+                <div class="clients-item__visits">
+                    <div class="clients-item__visits-mob">                        
+                        <svg class='icon-clock clients-item__visits-icon' width='14' height='14'><use href='./img/icons/icons.svg#clock'></use></svg>
+                        <span>985</span>
+                    </div>
+                    <div class="clients-item__visits-desktop">
+                        <span class="clients-item__visits-text">Регулярно</span>
+                        <span class="clients-item__tooltip clients-item__visits-tooltip">23</span>
+                    </div>                    
+                </div>
+                <!-- item  end-->
+
+                <!-- item -->
+                <div class="clients-item__cross">
+                    <svg class='icon-cross' width='15' height='15'><use href='./img/icons/icons.svg#cross'></use></svg>
+                    <span class="clients-item-cross clients-item__cross-icon">
+                        <svg class='icon-cross' width='24' height='24'><use href='./img/icons/icons.svg#cross_white'></use></svg>
+                    </span>
+                </div>
+                <!-- item  end-->
+
+                <!-- item -->
+                <div class="clients-item__comment">
+                    <svg class='icon-comment-quote' width='23' height='23'><use href='./img/icons/icons.svg#comment-quote'></use></svg>
+                    <span class="clients-item__tooltip clients-item__comment-tooltip">Массаж relax, исключитьмассаж головы</span>
+                </div>
+                <!-- item  end-->
+
+                <!-- item -->
+                <div class="clients-item__date">
+                    <span>20.01.1991</span>                    
+                </div>
+                <!-- item  end-->
+
+                <!-- item -->
+                <button class="client-item__button">
+                    <svg class='icon-pencil' width='24' height='24'><use href='./img/icons/icons.svg#pencil'></use></svg>
+                </button>
+                <!-- item  end-->
+            </li>
+        </ul> 
+        <button class="clients__btn btn btn--grey">Загрузить ещё</button>
+        <div class="clients__pagination pagination">
+            <ul class="pagination__list mb-30">
+                <li class="pagination__item pagination__item--button">
+                    <svg class='icon-arrow' width='18' height='12'><use href='./img/icons/icons.svg#arrow_prev'></use></svg>
+                </li>
+                <li class="pagination__item active">
+                    <a href="#">1</a>
+                </li>
+                <li class="pagination__item">
+                    <a href="#">2</a>
+                </li>
+                <li class="pagination__item">
+                    <a href="#">3</a>
+                </li>
+                <li class="pagination__item">
+                    <a href="#">4</a>
+                </li>
+                <li class="pagination__item">
+                    <a href="#">5</a>
+                </li>
+                <li class="pagination__item">
+                    <a href="#">последняя</a>
+                </li>
+                <li class="pagination__item pagination__item--button active">
+                    <svg class='icon-arrow' width='18' height='12'><use href='./img/icons/icons.svg#arrow_next'></use></svg>
+                </li>
+            </ul>
+            <div class="pagination__resalt"><span>1-12</span> из <span>569 5123</span> результатов</div>
+        </div>
+    </div>       
+</div> 
+                
+    <!-- </main> -->
+    
+    
+    
+    <script src="./js/main.min.js?_v=20221004184222"></script>
+</body>
+</html>
